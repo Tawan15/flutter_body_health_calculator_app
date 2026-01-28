@@ -1,4 +1,5 @@
 import 'package:flutter/widgets.dart';
+import 'package:flutter/material.dart';
 
 class AboutUi extends StatefulWidget {
   const AboutUi({super.key});
@@ -10,6 +11,12 @@ class AboutUi extends StatefulWidget {
 class _AboutUiState extends State<AboutUi> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Center(
+        child: Text('About'),
+      ),
+
+
+    );
   }
 }
