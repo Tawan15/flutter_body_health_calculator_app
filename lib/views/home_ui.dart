@@ -28,6 +28,7 @@ class _HomeUiState extends State<HomeUi> {
           'Body Health Calculator',
           style: TextStyle(
             fontWeight: FontWeight.bold,
+            color: Colors.white,
           ),
         )),
         centerTitle: true,
@@ -43,11 +44,11 @@ class _HomeUiState extends State<HomeUi> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.person_2_outlined),
-            label: 'Personal',
+            label: 'BMI',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.home_outlined),
-            label: 'HOME',
+            label: 'ABOUT',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.fitness_center_outlined),
